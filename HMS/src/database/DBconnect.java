@@ -17,7 +17,7 @@ public class DBconnect {
         
         try {
             Class.forName("com.mysql.jdbc.Driver");
-           conn=(Connection) DriverManager.getConnection("jdbc:mysql://173.82.153.253:3306/sanila_foodie","foodie","2u3ezupaj");
+           conn=(Connection) DriverManager.getConnection("jdbc:mysql://Database link","username","password");
      //conn=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/theterranovainn","root","");
         } 
         catch (Exception e) {
